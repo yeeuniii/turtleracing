@@ -28,9 +28,10 @@ t.mainloop()
 
 
 
-trial=int(input("시도 횟수"))
-for i in range(1,trial+1):
-    a=r.randint(0, 9)
-    print(a)
-    if a>=4:
-        t.forward(50)
+for i in range(turtlenum):
+    print(set[turtlename[i]+"time"])
+    if win[0] < set[turtlename[i]+"time"]:
+        win = [set[turtlename[i]+"time"]]
+    if win[0] == set[turtlename[i]+"time"]:
+        win = win.append(set[turtlename[i]+"time"])
+print(win)
